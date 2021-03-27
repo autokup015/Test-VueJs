@@ -4,12 +4,15 @@ import router from "./router";
 import store from "./store";
 import vuetify from "./plugins/vuetify";
 
+import moment from "moment";
+Vue.prototype.moment = moment;
+
 import Vuelidate from "vuelidate";
 Vue.use(Vuelidate);
 
-import moment from "moment";
+import VuePageTransition from "vue-page-transition";
 
-Vue.prototype.moment = moment;
+Vue.use(VuePageTransition);
 
 Vue.config.productionTip = false;
 

@@ -3,7 +3,9 @@
     <Header />
     <Linkbar />
     <v-main>
-      <router-view></router-view>
+      <vue-page-transition name="fade-in-down">
+        <router-view></router-view>
+      </vue-page-transition>
     </v-main>
   </v-app>
 </template>
@@ -23,7 +25,7 @@ export default {
 </script>
 
 <style scoped>
-.main{
+.main {
   width: auto;
   height: 100%;
 }
