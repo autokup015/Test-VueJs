@@ -1,6 +1,5 @@
 <template>
   <div class="textcen">
-    <h1>Fn3</h1>
     <h4>{{ check(a1) }}</h4>
     <h4>{{ check(a2) }}</h4>
     <h4>{{ check(a3) }}</h4>
