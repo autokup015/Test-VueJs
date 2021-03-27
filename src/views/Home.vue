@@ -35,6 +35,7 @@
 
             <h3>Password</h3>
             <v-text-field
+              type="password"
               label="Please fill password"
               solo
               v-model="password"
@@ -43,6 +44,7 @@
 
             <h3>Verify Password</h3>
             <v-text-field
+              type="password"
               label="Please fill verify password"
               solo
               v-model="cfpassword"
